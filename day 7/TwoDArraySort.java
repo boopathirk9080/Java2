@@ -7,8 +7,6 @@ public class TwoDArraySort {
             {7, 1, 3},
             {4, 8, 6}
         };
-
-        // Sorting each row of the 2D array individually
         for (int i = 0; i < array.length; i++) {
             Arrays.sort(array[i]);
         }
